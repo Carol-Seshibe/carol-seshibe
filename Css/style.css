@@ -1,0 +1,532 @@
+/*Background colour and spacing*/
+html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    background-color: #000000;
+    background-image: linear-gradient(to right, #d9bd74, #d5a14a, black 25%, black 75%, #d5a14a, #d9bd74);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+/*Background colour and spacing*/
+
+
+/*Navbar*/
+nav {
+    background-color: #191919;
+    padding: 0px;
+    height: 60px;
+    width: 100%;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.NavMenuMain ul {
+    padding: 0px;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    float: right;
+}
+
+
+.NavMenuMain li {
+    display: inline;
+    
+}
+
+li a {
+    display: block;
+    color: #d5a14a;
+    padding: 8px;
+    font-family: sans-serif;
+    font-size: clamp(1rem, 5vw, 1.3rem);
+    margin-top: 12px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #d5a14a;
+    color: #191919;
+}
+
+.MenuButton {
+    display: none;
+}
+
+.NavMenu {
+    display: none;
+}
+/*Navbar*/
+
+
+/*Respinsiveness Logos*/
+.logopc {
+    padding-top: 12px;
+}
+
+.logomobile {
+    display: none;
+}
+/*Respinsiveness Logos*/
+
+
+/*Text alteration codes*/
+h3 {
+    text-align: center;
+    color: #fcf2c4;
+    font-family: sans-serif;
+}
+
+.headings {
+    font-style: italic;
+    text-align: center;
+    color: #d5a14a;
+    font-family: sans-serif;
+}
+
+.subheadings {
+    font-style: italic;
+    text-align: center;
+    color: #d9bd74;
+    font-family: sans-serif;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    
+}
+
+.text {
+    margin-left: 330px;
+    margin-right: 340px;
+}
+
+a:link {
+    color: #d5a14a;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fcf2c4;
+}
+
+a:visited {
+    color: #d5a14a;
+}
+
+.MainPageText {
+    margin-left: 30vw;
+    margin-right: 30vw;
+}
+/*Text alteration codes*/
+
+
+/*Contact Form*/
+.contact {
+    border: 1px solid white;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.form-group {
+    max-width: 600vw;
+}
+/*Contact Form*/
+
+
+/*Promo Table*/
+.PromoTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.PromoTable td {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height:280px;
+    width: 250px;
+}
+/*Promo Table*/
+
+
+/*About Us Table*/
+.AboutUsTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AboutUsTable td {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    height:220px;
+    width: 280px;
+}
+/*About Us Table*/
+
+
+/*Brands Table*/
+.DrinksTable {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.DrinksTable td {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    max-height:270px;
+    max-width: 270px;
+    vertical-align: top;
+}
+
+.DrinksTable img {
+    padding-top: 12px;
+    max-width: 240px;
+}
+
+.DrinksTable th {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    width: 270px;
+}
+
+.brandtext {
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+/*Brands Table*/
+
+
+/*Center images/videos*/
+.EmbeddedVideo {
+    display: flex;
+    justify-content: center;
+}
+
+.GoogleMap {
+    display: flex;
+    justify-content: center;
+}
+
+.GinnoirLogo {
+    display: flex;
+    justify-content: center;
+}
+
+.PromoImage {
+    display: flex;
+    justify-content: center;
+}
+/*Center images/videos*/
+
+
+/*miscellaneous links*/
+#socials {
+    font-size: 50px;
+    color: #d9bd74;
+}
+
+#socials:hover {
+    color: #fcf2c4;
+}
+/*miscellaneous links*/
+
+
+/*footer info*/
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    flex: 1 1 auto;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #191919;
+}
+/*footer info*/
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+ 
+    html, body {
+        background-color: #000000;
+        background-image: none;
+    }
+
+    /*Navbar*/
+    .NavMenuMain li {
+        display: none;
+    }
+
+    .NavMenuMain {
+        float: right;
+    }
+
+    .MenuButton {
+        display: block;
+        cursor: pointer;
+        background: none;
+        border: none;
+        color: #d5a14a;
+        font-size: 1.5rem;
+        text-align: right;
+        margin-top: 12px;
+        float: right;
+    }   
+    
+    .NavMenu ul{
+        float: right;
+        background-color: #191919;
+        list-style: none;
+        margin: 0px;
+    }
+
+    .NavMenu.active {
+        display: block;
+    }
+    /*Navbar*/
+
+
+    /*Text alteration codes*/
+    h3 {
+        font-size: 90%;
+    }
+
+    .headings {
+        font-size: 90%;
+    }
+
+    .subheadings {
+        font-size: 90%;
+    }
+
+    p {
+        font-size: 80%;
+    }
+
+    .MainPageText {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+    /*Text alteration codes*/
+
+
+    /*Promo Table*/
+    .PromoTable {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .PromoTable td {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        height:200px;
+        width: 200px;
+    }
+
+    .PromoTable img {
+        max-width: 90%;
+    }
+    /*Promo Table*/
+
+
+    /*About Us Table*/
+    .AboutUsTable {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .AboutUsTable td {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        height:200px;
+        width: 200px;
+    }
+    .AboutUsTable img {
+        max-width: 70%;
+    }
+    /*About Us Table*/
+
+
+    /*Brands Table*/
+    .DrinksTable {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .DrinksTable td {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        max-height:170px;
+        max-width: 170px;
+    }
+
+    .DrinksTable th {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        height:20px;
+        width: 200px;
+    }
+
+    .DrinksTable img {
+        max-width: 80%;
+    }
+
+    .brandtext {
+        margin-left: 20px;
+        margin-right: 20px;
+        display: flex;
+    }
+    /*Brands Table*/
+
+
+    /*Center images/videos*/
+    .EmbeddedVideo iframe{
+        max-width: 50%;
+    }
+
+    .GoogleMap iframe{
+        max-width: 75%;
+    }
+
+    .GinnoirLogo img {
+        max-width: 20%;
+    }
+
+    .PromoImage img {
+        max-width: 85%;
+    }
+    /*Center images/videos*/
+
+    
+}
+
+
+@media (max-width: 480px) {
+
+    /*Navbar*/
+    .NavMenuMain li {
+        display: none;
+    }
+
+    .NavMenuMain {
+        float: right;
+    }
+
+    .MenuButton {
+        display: block;
+        margin-top: 12px;
+        padding: 0px;
+    }
+    /*Navbar*/
+
+
+    /*Respinsiveness Logos*/
+    .logopc {
+        display: none;
+    }
+
+    .logomobile {
+        display: inline;
+        margin-top: 0px;
+    }
+    /*Respinsiveness Logos*/
+
+
+    /*Text alteration codes*/
+    p {
+        font-size: 70%;
+    }
+    /*Text alteration codes*/
+
+
+    /*Promo Table*/
+    .PromoTable {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .PromoTable td {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        height:120px;
+        width: 120px;
+    }
+
+    .PromoTable img {
+        max-width: 90%;
+    }
+    /*Promo Table*/
+
+
+    /*About Us Table*/
+    .AboutUsTable {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .AboutUsTable td {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        height:200px;
+        width: 200px;
+    }
+    .AboutUsTable img {
+        max-width: 60%;
+    }
+    /*About Us Table*/
+
+
+    /*Brands Table*/
+    .DrinksTable td {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        max-height:170px;
+        max-width: 100px;
+    }
+
+    .DrinksTable th {
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        height:20px;
+        width: 200px;
+    }
+
+    .DrinksTable img {
+        max-width: 90%;
+    }
+
+    .brandtext {
+        margin-left: 10px;
+        margin-right: 10px;
+        display: flex;
+    }
+    /*Brands Table*/
+}
