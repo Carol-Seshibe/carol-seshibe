@@ -169,7 +169,6 @@ textarea {
     display: block;
     background-color: #d9bd74;
     border: none;
-    margin-left: 35px;
     margin-top: 12px;
     margin-bottom: 20px;
     border-radius: 4px;
@@ -363,6 +362,27 @@ textarea {
     }
     /*Text alteration codes*/
 
+    /*Contact Form*/
+    .contact {
+        margin-left: 20vw;
+        margin-right: 20vw;
+    }
+
+    input {
+        height: 2vw;
+        width: 50vw;
+    }
+
+    textarea {
+        height: 5vw;
+        width: 50vw;
+    }
+
+    .submit button {
+        height: 20px;
+        width: 120px;
+    }
+    /*Contact Form*/
 
     /*Promo Table*/
     .PromoTable {
@@ -496,6 +516,27 @@ textarea {
     }
     /*Text alteration codes*/
 
+    /*Contact Form*/
+    .contact {
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+
+    input {
+        height: 4vw;
+        width: 60vw;
+    }
+
+    textarea {
+        height: 10vw;
+        width: 60vw;
+    }
+
+    .submit button {
+        height: 20px;
+        width: 120px;
+    }
+    /*Contact Form*/
 
     /*Promo Table*/
     .PromoTable {
