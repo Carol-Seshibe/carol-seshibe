@@ -6,7 +6,8 @@ html, body {
     min-height: 100vh;
     width: 100%;
     background-color: #000000;
-    background-image: linear-gradient(to right, #d9bd74, #d5a14a, black 25%, black 75%, #d5a14a, #d9bd74);
+    background-image: url(Bubbles1.gif); background-repeat: no-repeat; background-size: cover;
+    /*background-image: linear-gradient(to right, #d9bd74, #d5a14a, black 25%, black 75%, #d5a14a, #d9bd74);*/
 }
 
 body {
@@ -163,8 +164,8 @@ textarea {
 }
 
 .submit button {
-    height: 2vw;
-    width: 7vw;
+    height: 20px;
+    width: 120px;
     display: block;
     background-color: #d9bd74;
     border: none;
