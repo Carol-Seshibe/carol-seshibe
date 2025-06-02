@@ -6,7 +6,7 @@ html, body {
     min-height: 100vh;
     width: 100%;
     background-color: #000000;
-    background-image: url(Bubbles1.gif); background-repeat: no-repeat; background-size: cover;
+    background-image: url(BlackStar.png); background-repeat: no-repeat; background-size: cover;
     /*background-image: linear-gradient(to right, #d9bd74, #d5a14a, black 25%, black 75%, #d5a14a, #d9bd74);*/
 }
 
