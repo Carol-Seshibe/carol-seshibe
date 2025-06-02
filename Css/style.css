@@ -134,13 +134,46 @@ a:visited {
 
 /*Contact Form*/
 .contact {
-    border: 1px solid white;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    background-color: #191919;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    border-radius: 5px;
 }
 
-.form-group {
-    max-width: 600vw;
+input {
+    height: 2vw;
+    width: 35vw;
+    color: white;
+    background-color: #000000;
+    border: none;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+textarea {
+    height: 5vw;
+    width: 35vw;
+    color: white;
+    background-color: #000000;
+    border: none;
+    margin-left: 35px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.submit button {
+    height: 2vw;
+    width: 7vw;
+    display: block;
+    background-color: #d9bd74;
+    border: none;
+    margin-left: 35px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
 }
 /*Contact Form*/
 
